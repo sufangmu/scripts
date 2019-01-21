@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ `docker -v | grep 17.03.2-ce | wc -l` -eq 1 ];then
-   echo "Docker 17.03.2-ce Installed! "
-   exit 0
-fi
+#if [ `docker -v | grep 17.03.2-ce | wc -l` -eq 1 ];then
+#   echo "Docker 17.03.2-ce Installed! "
+#   exit 0
+#fi
 
 # Install Docker On Ubuntu16.04
 echo "Uninstall old versions"
