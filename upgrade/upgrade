@@ -1,0 +1,6 @@
+#!/bin/bash
+source ./bin/public.sh
+function upgrade(){
+	err   "未找到文件"
+}
+upgrade
